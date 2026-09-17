@@ -32,7 +32,7 @@ public class ChatCopycat implements ModInitializer {
 	// 1 in 5 chance a chat message gets copied.
 	private static final int TRIGGER_CHANCE = 5;
 	// How far away (in blocks) a mob can be and still "hear" you.
-	private static final double COPY_RANGE = 8.0;
+	private static final double COPY_RANGE = 32.0;
 
 	private static final Random RANDOM = new Random();
 
