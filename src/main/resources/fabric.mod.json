@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "chatcopycat",
+	"version": "${version}",
+	"name": "Chat Copycat",
+	"description": "The nearest mob to you sometimes repeats what you say in chat.",
+	"authors": [
+		"K-Batman"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/chatcopycat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kaius.ChatCopycat"
+		],
+		"client": [
+			"com.kaius.client.ChatCopycatClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
